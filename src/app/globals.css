@@ -2,32 +2,71 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Signika:wght@300..700&display=swap');
+
+/* h1,h2,h3,h4,h5,h6,p, li{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+} */
+
+.container{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    color: rgb(247, 247, 247);
+    background-color: #141618;
+    border: 0.1px solid rgb(34, 34, 34);
+    
+}
+.container2{
+    padding: 15px;
+    border: 0.1px solid rgba(245, 208, 107, 0.04);
+    margin: 10px auto ;
+    background-color: rgb(36, 35, 35) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.container3{
+    margin:10px auto
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.cardItem{
+    img{
+        width: 250px;
+        height: 250px;
+        background-color: black;
+        border-radius: 10px;
+    }
 }
+/* nav{
+    width: 800px;
+    color: blue;
+} */
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+
+h1{
+    font-size: 2.124rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+h6{
+    font-size: 1rem;
+    font-weight: 600;
 }
