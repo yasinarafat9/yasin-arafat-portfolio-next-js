@@ -8,7 +8,7 @@ const CardItem = ({ img, title, subtitle }) => {
             </div>
             <div className="my-3">
                 <h4>{title}</h4>
-                <p>Learned Almost: {subtitle}</p>
+                <p>{subtitle}</p>
             </div>
         </div>
     );

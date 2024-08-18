@@ -6,7 +6,7 @@ const SideNav = () => {
     return (
         <div className='container w-[25%] bg-gray-500'>
             {/* SideNav */}
-            <div className="text-center ">
+            <div className="text-center container2 ">
                 <img className='rounded-xl w-full h-[250px] object-cover' src="https://i.pinimg.com/564x/d2/a7/93/d2a7932211aa3dba9a24a24e4215ad78.jpg" />
                 <h5 className='tracking-widest mt-2'>Yasin Arafat</h5>
                 <h6 className=''>Web Devoloper</h6>

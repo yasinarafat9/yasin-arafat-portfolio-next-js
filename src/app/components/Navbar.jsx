@@ -9,12 +9,12 @@ const Navbar = () => {
             </div>
             <ul className='flex gap-12  w-full'>
                 <Link href="/skills" ><li>Skills</li></Link>
-                <Link href="/about" ><li>About</li></Link>
                 <Link href="/resume" ><li>Resume</li></Link>
                 <Link href="/contact" ><li>Contact</li></Link>
-                <Link href="/blog" ><li>Blog</li></Link>
                 <Link href="/education" ><li>Education</li></Link>
                 <Link href="/projects" ><li>Projects</li></Link>
+                <Link href="/blog" ><li>Blog</li></Link>
+                <Link href="/about" ><li>About</li></Link>
             </ul>
         </nav>
     );

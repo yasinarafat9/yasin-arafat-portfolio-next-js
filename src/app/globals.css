@@ -21,20 +21,26 @@
 .container2{
     padding: 15px;
     border: 0.1px solid rgba(245, 208, 107, 0.04);
-    margin: 10px auto ;
+    margin: 10px auto;
     background-color: rgb(36, 35, 35) ;
     border-radius: 10px;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 5px black;
 }
 
 .container3{
-    margin:10px auto
+    padding: 15px;
+    margin:10px ;
+    border: 0.1px solid rgba(245, 208, 107, 0.04);
+    background-color: rgb(36, 35, 35) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
 }
 
 .cardItem{
     img{
         width: 250px;
         height: 250px;
+        object-fit: cover;
         background-color: black;
         border-radius: 10px;
     }
