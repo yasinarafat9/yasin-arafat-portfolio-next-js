@@ -4,7 +4,7 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { GiNewBorn } from "react-icons/gi";
 const SideNav = () => {
     return (
-        <div className='container w-[25%] bg-gray-500'>
+        <div className=' container w-[25%] bg-gray-500'>
             {/* SideNav */}
             <div className="text-center container2 ">
                 <img className='rounded-xl w-full h-[250px] object-cover' src="https://i.pinimg.com/564x/d2/a7/93/d2a7932211aa3dba9a24a24e4215ad78.jpg" />

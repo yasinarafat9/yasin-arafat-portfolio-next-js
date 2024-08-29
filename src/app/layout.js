@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
               <SideNav />
               <div className=" w-full">
                 <Navbar />
-                <div className="container m-auto ">
+                <div className="container m-auto min-h-[650px]">
                   {children}
                 </div>
               </div>
